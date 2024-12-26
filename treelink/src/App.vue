@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" style="padding-left: 10px;padding-right: 10px;">
     <header>
       <img src="./assets/headshot.jpg" alt="TreeLink Logo" class="logo" />
       <h1>Josh Bousada</h1>
@@ -48,13 +48,6 @@ export default {
 </script>
 
 <style scoped>
-#app {
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 10px;
-}
 
 header {
   margin-bottom: 25px;
@@ -77,8 +70,8 @@ header {
 
 @media (max-width: 600px) {
   .logo {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
   }
 }
 
@@ -106,7 +99,7 @@ h1 {
 /* Styling for each icon link */
 .social-icons a {
     color: white; /* White color for icons */
-    margin: 0 10px; /* Horizontal spacing between icons */
+    margin: 0 12px; /* Horizontal spacing between icons */
     font-size: 24px; /* Size of the icons */
     text-decoration: none; /* Removes underline from links */
     transition: color 0.3s ease; /* Smooth transition for hover effect */
@@ -121,7 +114,7 @@ h1 {
 @media (max-width: 600px) {
     .social-icons a {
         font-size: 20px; /* Smaller icons on smaller screens */
-        margin: 0 7px; /* Reduced spacing */
+        margin: 0 12px; /* Reduced spacing */
     }
 }
 
