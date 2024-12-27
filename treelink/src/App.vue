@@ -1,32 +1,37 @@
 <template>
   <div id="app" style="padding-left: 10px;padding-right: 10px;">
+
     <header>
-      <img src="./assets/headshot.jpg" alt="TreeLink Logo" class="logo" />
+      <img src="./assets/headshot.JPEG" alt="TreeLink Logo" class="logo" />
       <h1>Josh Bousada</h1>
       <p style="margin: 0;">Real Estate Agent</p>
     </header>
+
+    <!-- Button Links -->
     <LinkList :links="links" />
+
+    <!-- Social Icons -->
     <div class="social-icons">
-      <a href="https://twitter.com/yourprofile" aria-label="Twitter" target="_blank" rel="noopener noreferrer">
-          <i class="fa fa-twitter" aria-hidden="true"></i>
-      </a>
-      <a href="https://instagram.com/yourprofile" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.instagram.com/joshbousada.realestate/profilecard/?igsh=aHc3a2V1czI1cG9o" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
           <i class="fa fa-instagram" aria-hidden="true"></i>
       </a>
-      <a href="https://linkedin.com/in/yourprofile" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.linkedin.com/in/joshbousada?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
           <i class="fa fa-linkedin" aria-hidden="true"></i>
       </a>
-      <a href="https://facebook.com/yourprofile" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.facebook.com/share/19UoTHfX4z/?mibextid=wwXIfr" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
         <i class="fa fa-facebook" aria-hidden="true"></i>
       </a>
     </div>
+
     <footer>
-      <p>&copy; 2024 Josh Bousada. All rights reserved.</p>
+      <p>&copy;{{ currentYear }} Josh Bousada. All rights reserved.</p>
     </footer>
+
   </div>
 </template>
 
 <script>
+import { computed } from 'vue';
 import LinkList from './components/LinkList.vue'
 
 export default {
@@ -34,16 +39,16 @@ export default {
   components: {
     LinkList
   },
+
   data() {
     return {
       links: [
-        { id: 1, name: 'Placeholder 1', url: 'https://github.com/yourusername' },
-        { id: 2, name: 'Placeholder 2', url: 'https://linkedin.com/in/yourusername' },
-        { id: 3, name: 'Placeholder 3', url: 'https://yourportfolio.com' },
-        { id: 4, name: 'Placeholder 4', url: 'https://yourblog.com' },
-      ]
+        { id: 1, name: 'Matheson Group Reality', url: 'https://jeffmatheson.exprealty.com/' },
+      ],
+      currentYear: new Date().getFullYear(),
     }
-  }
+  },
+
 }
 </script>
 
@@ -54,8 +59,8 @@ header {
 }
 
 .logo {
-  width: 100px;                     /* Sets the width of the logo */
-  height: 100px;                    /* Ensures the logo is square for perfect rounding */
+  width: 110px;                     /* Sets the width of the logo */
+  height: 110px;                    /* Ensures the logo is square for perfect rounding */
   border-radius: 50%;               /* Makes the logo circular */
   object-fit: cover;                /* Ensures the image covers the container without distortion */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
@@ -66,13 +71,6 @@ header {
 .logo:hover {
   transform: scale(1.05);                    /* Slightly enlarges the logo on hover */
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Intensifies the shadow on hover */
-}
-
-@media (max-width: 600px) {
-  .logo {
-    width: 100px;
-    height: 100px;
-  }
 }
 
 @media (min-width: 1200px) {
@@ -108,14 +106,6 @@ h1 {
 /* Hover effect for icons */
 .social-icons a:hover {
     color: #1da1f2; /* Change to desired hover color, e.g., Twitter blue */
-}
-
-/* Responsive adjustments */
-@media (max-width: 600px) {
-    .social-icons a {
-        font-size: 20px; /* Smaller icons on smaller screens */
-        margin: 0 12px; /* Reduced spacing */
-    }
 }
 
 footer {
