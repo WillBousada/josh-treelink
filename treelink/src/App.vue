@@ -2,7 +2,7 @@
   <div id="app" style="padding-left: 10px;padding-right: 10px;">
 
     <header>
-      <img src="./assets/headshot.JPEG" alt="TreeLink Logo" class="logo" />
+      <img src="./assets/headshot.jpeg" alt="TreeLink Logo" class="logo" />
       <h1>Josh Bousada</h1>
       <p style="margin: 0;">Real Estate Agent</p>
     </header>
@@ -31,7 +31,6 @@
 </template>
 
 <script>
-import { computed } from 'vue';
 import LinkList from './components/LinkList.vue'
 
 export default {
