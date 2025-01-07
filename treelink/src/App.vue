@@ -42,7 +42,7 @@ export default {
   data() {
     return {
       links: [
-        { id: 1, name: 'Matheson Group Reality', url: 'https://jeffmatheson.exprealty.com/' },
+        { id: 1, name: 'Matheson Group Realty', url: 'https://jeffmatheson.exprealty.com/' },
       ],
       currentYear: new Date().getFullYear(),
     }
