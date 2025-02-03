@@ -13,13 +13,19 @@
     <!-- Social Icons -->
     <div class="social-icons">
       <a href="https://www.instagram.com/joshbousada.realestate/profilecard/?igsh=aHc3a2V1czI1cG9o" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
-          <i class="fa fa-instagram" aria-hidden="true"></i>
+          <i class="fa-brands fa-instagram" aria-hidden="true"></i>
       </a>
       <a href="https://www.linkedin.com/in/joshbousada?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
-          <i class="fa fa-linkedin" aria-hidden="true"></i>
+          <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
       </a>
       <a href="https://www.facebook.com/share/19UoTHfX4z/?mibextid=wwXIfr" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
-        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.tiktok.com/@mathesongrouprealty" aria-label="Tiktok" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-tiktok" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.tiktok.com/@mathesongrouprealty" aria-label="Youtube" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-youtube" aria-hidden="true"></i>
       </a>
     </div>
 
@@ -43,6 +49,8 @@ export default {
     return {
       links: [
         { id: 1, name: 'Matheson Group Realty', url: 'https://jeffmatheson.exprealty.com/' },
+        { id: 2, name: 'Matheson Group Realty 5⭐ Reviews', url: 'https://www.google.com/search?q=matheson+group+realty+google+reviews&rlz=1C5CHFA_enCA980CA982&oq=matheson+group+realty+google+reviews+&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORigATIHCAEQIRigAdIBCDkxMTZqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#lrd=0x4cce0519d7402607:0x8' },
+        { id: 3, name: '3 Things To Know When Choosing Youre Realtor 🏡', url: 'https://www.instagram.com/reel/Crf94inAEc-/' },
       ],
       currentYear: new Date().getFullYear(),
     }
