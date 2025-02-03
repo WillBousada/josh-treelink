@@ -24,7 +24,7 @@
       <a href="https://www.tiktok.com/@mathesongrouprealty" aria-label="Tiktok" target="_blank" rel="noopener noreferrer">
         <i class="fa-brands fa-tiktok" aria-hidden="true"></i>
       </a>
-      <a href="https://www.tiktok.com/@mathesongrouprealty" aria-label="Youtube" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.youtube.com/channel/UCUEMDb4Fz1Ym0iHtMShTh_Q?sub_confirmation=1" aria-label="Youtube" target="_blank" rel="noopener noreferrer">
         <i class="fa-brands fa-youtube" aria-hidden="true"></i>
       </a>
     </div>
