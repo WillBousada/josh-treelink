@@ -37,13 +37,13 @@ export default {
     display: flex;
     align-items: center;       
     justify-content: center;     
-    padding: 15px 30px;
+    padding: 10px 15px;
     background-color: white;
     color: black;
     text-decoration: none;
     border-radius: 8px;
     transition: background-color 0.3s, box-shadow 0.3s;
-    font-size: 1.1em;
+    font-size: 1.0em;
     box-shadow: 3px 3px 8px #00BFFF;
 }
     

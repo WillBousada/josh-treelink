@@ -51,6 +51,7 @@ export default {
         { id: 1, name: 'Matheson Group Realty', url: 'https://jeffmatheson.exprealty.com/' },
         { id: 2, name: 'Matheson Group Realty 5⭐ Reviews', url: 'https://www.google.com/search?q=matheson+group+realty+google+reviews&rlz=1C5CHFA_enCA980CA982&oq=matheson+group+realty+google+reviews+&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORigATIHCAEQIRigAdIBCDkxMTZqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#lrd=0x4cce0519d7402607:0x8' },
         { id: 3, name: '3 Things To Know When Choosing Your Realtor 🏡', url: 'https://www.instagram.com/reel/Crf94inAEc-/' },
+        { id: 4, name: '🔥 Discover the Hottest Real Estate Hacks of 2025! 🔥', url: 'https://discord.com/channels/@me/755987423854460999/1350139347768311911' },
       ],
       currentYear: new Date().getFullYear(),
     }
